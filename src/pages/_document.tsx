@@ -1,5 +1,6 @@
 import Document, {
   Html,
+  Head,
   Main,
   NextScript,
   DocumentContext,
@@ -32,6 +33,7 @@ class CustomDocument extends Document {
     return (
       <>
         <Html>
+          <Head />
           <body>
             <Main />
             <NextScript />
